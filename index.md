@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "wxDa"
   text: "wxDa_Docs"
-  tagline: My great project tagline
+  tagline: wxDa文档站
   actions:
     - theme: brand
       text: Markdown Examples
