@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/wxDa_Docs",
+  // icon
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   // 站点标题
   title: "wxDa",
   // 站点描述
@@ -25,13 +27,29 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     // i18nRouting: true,
     // 左上logo
-    logo: 'https://api.wxda.cc/logo.png',
+    logo: '/logo.png',
     // 左上标题
-    siteTitle: 'Hello World',
-    // // 搜索
-    // search: {
-    //   provider: 'local'
-    // },
+    siteTitle: 'wxDa',
+    // 搜索
+    search: {
+      provider: "local",
+      options: {
+        translations: {
+          button: {
+            buttonText: "搜索",
+            buttonAriaLabel: "搜索",
+          },
+          modal: {
+            noResultsText: "无法找到相关结果",
+            resetButtonTitle: "清除查询条件",
+            footer: {
+              selectText: "选择",
+              navigateText: "切换",
+            },
+          },
+        },
+      },
+    },
     // 顶部导航
     nav: [
       { text: '主菜单', link: '/' },
