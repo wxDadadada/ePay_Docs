@@ -53,15 +53,15 @@ export default defineConfig({
     // 顶部导航
     nav: [
       { text: '主菜单', link: '/' },
-      { text: '第二菜单', link: '/markdown-examples' },
       {
-        text: '下拉菜单',
+        text: '网站导航',
         items: [
-          { text: '下拉子菜单1', link: '/item-1' },
-          { text: '下拉子菜单2', link: '/item-2' },
-          { text: '下拉子菜单3', link: '/item-3' }
+          { text: 'wxDa易支付', link: 'https://wxda.me' },
+          { text: '大聪明API', link: '/' },
+          { text: '大聪明AI', link: '/' }
         ]
-      }
+      },
+      { text: '关于', link: '/about' }
     ],
     // 切换主题
     darkModeSwitchLabel: '切换主题',
@@ -85,16 +85,16 @@ export default defineConfig({
         ariaLabel: 'cool link'
       }
     ],
-    // 侧边栏
-    sidebar: [
-      {
-        text: '侧边菜单',
-        items: [
-          { text: '侧边菜单1', link: '/markdown-examples' },
-          { text: '侧边菜单2', link: '/api-examples' }
-        ]
-      }
-    ],
+    // // 侧边栏
+    // sidebar: [
+    //   {
+    //     text: '侧边菜单',
+    //     items: [
+    //       { text: '侧边菜单1', link: '/markdown-examples' },
+    //       { text: '侧边菜单2', link: '/api-examples' }
+    //     ]
+    //   }
+    // ],
     // 在GitHub编辑
     // editLink: {
     //   pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
