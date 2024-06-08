@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: "/wxDa_Docs",
   // icon
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [["link", { rel: "icon", href: "/wxDa_Docs/favicon.ico" }]],
   // 站点标题
   title: "wxDa",
   // 站点描述
