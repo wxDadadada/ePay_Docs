@@ -6,6 +6,9 @@ hero:
   name: "wxDa"
   text: "wxDa_Docs"
   tagline: wxDa文档站
+  image:
+    src: /logo-3d.webp
+    alt: logo-3d
   actions:
     - theme: brand
       text: Markdown Examples
