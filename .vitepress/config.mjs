@@ -57,8 +57,8 @@ export default defineConfig({
         text: '网站导航',
         items: [
           { text: 'wxDa易支付', link: 'https://wxda.me' },
-          { text: '大聪明API', link: '/' },
-          { text: '大聪明AI', link: '/' }
+          { text: '大聪明API', link: 'https://api.wxda.net' },
+          { text: '大聪明AI', link: 'https://ai.wxda.net' }
         ]
       },
       { text: '关于', link: '/about' }
@@ -74,7 +74,7 @@ export default defineConfig({
     // 右上图标
     socialLinks: [
       { icon: 'github', link: 'https://github.com/wxdadadada' },
-      { icon: 'twitter', link: '...' },
+      // { icon: 'twitter', link: '...' },
       // 可以通过将 SVG 作为字符串传递来添加自定义图标：
       {
         icon: {

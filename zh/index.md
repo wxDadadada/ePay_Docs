@@ -6,6 +6,9 @@ hero:
   name: "wxDa"
   text: "wxDa_Docs"
   tagline: My great project tagline
+  image:
+    src: /logo-3d.webp
+    alt: 背景图
   actions:
     - theme: brand
       text: Markdown Examples

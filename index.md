@@ -6,6 +6,9 @@ hero:
   name: "wxDa"
   text: "wxDa_Docs"
   tagline: wxDa文档站
+  image:
+    src: /logo-3d.webp
+    alt: 背景图
   actions:
     - theme: brand
       text: wxDa易支付
