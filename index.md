@@ -8,11 +8,14 @@ hero:
   tagline: wxDa文档站
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: wxDa易支付
+      link: /epy
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 大聪明AI
+      link: /ai
+    - theme: alt
+      text: 大聪明API
+      link: /api
 
 features:
   - title: Feature A
