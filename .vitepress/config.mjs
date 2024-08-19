@@ -3,11 +3,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: "/",
   // icon
-  head: [["link", { rel: "icon", href: "/favicon 2.ico" }]],
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   // 站点标题
-  title: "ePay.la",
+  title: "wxDa收银台 - 聚合支付API接口一站式免签约平台",
   // 站点描述
-  description: "易支付",
+  description: "彩虹易支付官网wxDa收银台(epay.la)-解决个人支付难题，一站式聚合接入支付宝,微信,QQ钱包,APP,小程序支付，帮助开发者快速集成到自己相应产品，效率高，见效快，费率低。",
   // // 国际化
   // locales: {
   //   root: {
@@ -26,9 +26,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     // i18nRouting: true,
     // 左上logo
-    logo: '/支付 (1).png',
+    logo: '/zhifux128.png',
     // 左上标题
-    siteTitle: 'ePay.la',
+    siteTitle: 'wxDa收银台',
     // // 搜索
     // search: {
     //   provider: "local",
@@ -52,13 +52,14 @@ export default defineConfig({
     // 顶部导航
     nav: [
       { text: '首页', link: '/' },
-      { text: '快速开始', link: '/guide/' },
-      { text: '帮助中心', link: '/help/' },
-      { text: '开发文档', link: '/doc/' },
+      { text: '快速开始', link: '/guide/', activeMatch: '/guide/' },
+      { text: '测试支付', link: 'https://epay.wxda.net/user/test.php' },
+      { text: '帮助中心', link: '/help/', activeMatch: '/help/' },
+      { text: '开发文档', link: '/doc/', activeMatch: '/doc/' },
       {
         text: '网站导航',
         items: [
-          { text: 'ePay.la', link: 'https://epay.la' },
+          { text: 'wxDa收银台', link: 'https://epay.la' },
           { text: '大聪明API', link: 'https://api.openai.sn' },
           { text: 'NO-API', link: 'https://docs.qq.com/doc/p/af2a94ff20cd066dc642d20179a04006c9cba162' }
         ]
@@ -95,10 +96,17 @@ export default defineConfig({
           { text: '开户指引', link: '/guide/reg' }
         ]
       }],
+      '/help/': [{
+        text: '帮助中心',
+        items: [
+          { text: '常见问题', link: '/help/' },
+          { text: '服务条款', link: '/help/agreement' }
+        ]
+      }],
       '/doc/': [{
         text: '开发文档',
         items: [
-          { text: '说明', link: '/doc/' },
+          { text: '文档说明', link: '/doc/' },
           {
             text: '开发文档 V2',
             items: [
