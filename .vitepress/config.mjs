@@ -93,7 +93,7 @@ export default defineConfig({
         text: '快速开始',
         items: [
           { text: '平台介绍', link: '/guide/' },
-          { text: '开户指引', link: '/guide/reg' },
+          { text: '注册指引', link: '/guide/reg' },
           { text: '商户进件', link: '/guide/applyments_merchant' }
         ]
       }],
