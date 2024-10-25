@@ -9,8 +9,8 @@
 :::
 
 我们的站点：
-- eEay.la主站: [epay.la](https://epay.la)
-- eEay.la备用站: [epay.wxda.net](https://epay.wxda.net)
+- wxDa收银台主控制台: [epay.wxda.net](https://epay.wxda.net)
+- wxDa收银台备用控制台: [console.epay.la](https://console.epay.la)
 
 用户 QQ 群：
 > ePay.la通知群：[805813237](https://qm.qq.com/q/hkFIQBbmF4) 暂未开放  
